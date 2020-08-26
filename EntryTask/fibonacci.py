@@ -16,10 +16,10 @@ def memo_fib(n: int) -> int:
 if __name__ == '__main__':
     cnt = 0
     #straightforward recursion
-    print(fib(20), end='')
+    print(fib(15), end='')
     print(", count = ", cnt) #very inefficient
 
     cnt = 0
     #with memoisation
-    print(memo_fib(20), end='')
+    print(memo_fib(15), end='')
     print(", count = ", cnt) #better than straightforward recursion
